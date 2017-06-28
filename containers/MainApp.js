@@ -21,7 +21,7 @@ const MainApp = (props) => {
         <Text style={buttonText}>Load People</Text>
       </TouchableHighlight>
       {
-        isFetching && <Text>Loading</Text>
+        isFetching && <Text>Loading...</Text>
       }
       {
         people.length ? (
